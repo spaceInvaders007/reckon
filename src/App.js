@@ -57,7 +57,7 @@ function App() {
   return (
     <Styles>
       <Log data={data} pauseLog={pauseLog} logData={logData} />
-      <Summary data={data} summaryData={summaryData} />
+      <Summary summaryData={summaryData} />
     </Styles>
   );
 }
